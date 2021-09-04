@@ -34,7 +34,7 @@ class Event {
     }
 
     information(eventId) {
-        const { event: description } = this.get(eventId)
+        const { event: description } = this.get(eventId);
         return { description };
     }
 
